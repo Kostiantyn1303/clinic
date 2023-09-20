@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/clinic/static/css/main.4cb7c40d.css",
+    "main.js": "/clinic/static/js/main.6a5bf5fb.js",
+    "static/media/team4.jpeg": "/clinic/static/media/team4.171d18de15c0cdeed25b.jpeg",
+    "static/media/room.webp": "/clinic/static/media/room.8b4d903024353bd5aeda.webp",
+    "static/media/hero.jpeg": "/clinic/static/media/hero.2b4ff791c28a6a12c7ff.jpeg",
+    "static/media/clients.png": "/clinic/static/media/clients.f8ad2e421e9244d578c3.png",
+    "static/media/room3.jpg": "/clinic/static/media/room3.1467c2bcde1e7ae21c67.jpg",
+    "static/media/icons.svg": "/clinic/static/media/icons.b2173b91c119b714cf999684718ec35e.svg",
+    "static/media/room2.jpeg": "/clinic/static/media/room2.73ea4ae4c5f9ceb50616.jpeg",
+    "static/media/issues.png": "/clinic/static/media/issues.b3c39babc5515a4bd89d.png",
+    "static/media/team6.jpeg": "/clinic/static/media/team6.68c803b6eef39599390e.jpeg",
+    "static/media/team3.jpeg": "/clinic/static/media/team3.dab55930d7307611d0ec.jpeg",
+    "static/media/team5.jpeg": "/clinic/static/media/team5.c99f39a4414abaee9b49.jpeg",
+    "static/media/GE-1.png": "/clinic/static/media/GE-1.7f0fe7d5c05e5a989af9.png",
+    "static/media/team1.jpeg": "/clinic/static/media/team1.3cdaf9ea8309f9331a5b.jpeg",
+    "static/media/slick.svg": "/clinic/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/clinic/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/clinic/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/clinic/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/clinic/index.html",
+    "main.4cb7c40d.css.map": "/clinic/static/css/main.4cb7c40d.css.map",
+    "main.6a5bf5fb.js.map": "/clinic/static/js/main.6a5bf5fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cb7c40d.css",
+    "static/js/main.6a5bf5fb.js"
+  ]
+}
