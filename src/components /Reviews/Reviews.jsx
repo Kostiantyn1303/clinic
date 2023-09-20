@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styled from "styled-components"; // Імпортуємо styled-components
 import { ReviewsContainer, Title, Img } from "./Reviews.styled";
+import { Element } from "react-scroll";
 const TestimonialsCarouselContainer = styled.div`
   width: 100%;
   margin: 0 auto;
@@ -49,26 +50,28 @@ const TestimonialsCarousel = () => {
   };
 
   return (
-    <ReviewsContainer>
-      <Title>Feedback from ours clients</Title>
-      <TestimonialsCarouselContainer>
-        <Slider {...sliderSettings}>
-          {testimonials.map((testimonial, index) => (
-            <TestimonialSlide key={index}>
-              <p>{testimonial.text}</p>
-              <Author>{testimonial.author}</Author>
-              <div>
-                {" "}
-                <svg stroke="gray" width="24" height="24">
-                  <use href={sprite + "#icon-bubbl"} />
-                </svg>
-                <Img height={400} src={MyImage} alt="" />
-              </div>
-            </TestimonialSlide>
-          ))}
-        </Slider>
-      </TestimonialsCarouselContainer>
-    </ReviewsContainer>
+    <Element name="reviews">
+      <ReviewsContainer id="Reviews">
+        <Title>Feedback from ours clients</Title>
+        <TestimonialsCarouselContainer>
+          <Slider {...sliderSettings}>
+            {testimonials.map((testimonial, index) => (
+              <TestimonialSlide key={index}>
+                <p>{testimonial.text}</p>
+                <Author>{testimonial.author}</Author>
+                <div>
+                  {" "}
+                  <svg stroke="gray" width="24" height="24">
+                    <use href={sprite + "#icon-bubbl"} />
+                  </svg>
+                  <Img height={400} src={MyImage} alt="" />
+                </div>
+              </TestimonialSlide>
+            ))}
+          </Slider>
+        </TestimonialsCarouselContainer>
+      </ReviewsContainer>
+    </Element>
   );
 };
 

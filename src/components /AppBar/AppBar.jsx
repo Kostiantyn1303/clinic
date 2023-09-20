@@ -26,19 +26,29 @@ const AppBar = () => {
             </NavItem>
 
             <NavItem>
-              <StyledLink href="">Services</StyledLink>
+              <StyledLink to="services" smooth={true} duration={500}>
+                Services
+              </StyledLink>
             </NavItem>
             <NavItem>
-              <StyledLink href="">Our specialists</StyledLink>
+              <StyledLink to="team" smooth={true} duration={500}>
+                Our specialists
+              </StyledLink>
             </NavItem>
             <NavItem>
-              <StyledLink href="">Blog</StyledLink>
+              <StyledLink to="blog" smooth={true} duration={500}>
+                Blog
+              </StyledLink>
             </NavItem>
             <NavItem>
-              <StyledLink href="">Reviews</StyledLink>
+              <StyledLink to="reviews" smooth={true} duration={500}>
+                Reviews
+              </StyledLink>
             </NavItem>
             <NavItem>
-              <StyledLink href="">Contacts </StyledLink>
+              <StyledLink to="contacts" smooth={true} duration={500}>
+                Contacts{" "}
+              </StyledLink>
             </NavItem>
             <NavItem>
               <StyledLink href="">Privacy Policy </StyledLink>
