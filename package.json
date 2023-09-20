@@ -2,7 +2,7 @@
   "name": "clinic",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Kostiantyn1303.github.io/clinic",
+  "homepage": "https://Kostiantyn1303.github.io/clinic/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
